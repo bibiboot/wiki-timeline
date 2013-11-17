@@ -192,7 +192,8 @@ def execute():
     persons = [
            'Roman Polanski',
            'John Lennon',
-           'Mohandas Karamchand Gandhi'
+           #'Mohandas Karamchand Gandhi'
+           'Mahatma%20Gandhi',
            ]
     for person in persons:
         person= person.replace(' ','%20')
